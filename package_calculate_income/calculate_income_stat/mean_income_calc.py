@@ -1,5 +1,4 @@
 from .load_data_people import load_people
-import pandas as pd
 
 
 def mean_inc_gm(file1, file2):

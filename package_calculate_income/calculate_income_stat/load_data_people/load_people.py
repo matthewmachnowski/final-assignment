@@ -58,5 +58,4 @@ def load_woj(data):
         print(fnf_error)
     else:
         df["nazwa-JST"] = df["nazwa-JST"].str.upper()
-        df.set_index('nazwa-JST', inplace=True)
         return df

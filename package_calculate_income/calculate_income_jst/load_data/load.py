@@ -14,13 +14,13 @@ def load(data):
                                   'nazwa-JST': str,
                                   'rozdzial': str,
                                   'paragraf': str,
-                                  'wplaty': np.float64}
+                                  'wplaty': np.float32}
                            )
         load_test(df)
-    except AssertionError as error:
-        print(error)
-    except FileNotFoundError as fnf_error:
-        print(fnf_error)
+    except AssertionError:
+        print("Failed to load data.")
+    except FileNotFoundError:
+        print("There is no such file.")
     else:
         for col in ["PK", "GK"]:
             df.loc[df[col] == "-", [col]] = "00"
@@ -41,4 +41,4 @@ def load(data):
 
 
 def load_test(data):
-    assert np.all(data["paragraf"] == "0010"), "TO NIE SĄ DANE DLA PIT."
+    assert np.all(data["paragraf"] == "0010"), "Niestety nie są to wpływy z podatku dochodowego."

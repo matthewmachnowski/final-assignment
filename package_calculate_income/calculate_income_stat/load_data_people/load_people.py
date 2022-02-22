@@ -19,7 +19,7 @@ def load_gm(data):
         # 0201022 (KOD) -> 020102 (kod)
         df['kod'] = df['KOD'].str.slice(stop=6)
         df['value'] = df['KOD'].str.slice(start=6)
-        df = df[df["value"].isin(["1", "2", "5"])]
+        df = df[df["value"].isin(["1", "2", "3"])]
         df.set_index('kod', inplace=True)
         return df
 

@@ -1,4 +1,4 @@
-###Finalny projekt z przedmiotu Narzędzia programistyczne w Pythonie wspierające analizę danych (NYPD)
+### Finalny projekt z przedmiotu Narzędzia programistyczne w Pythonie wspierające analizę danych (NYPD)
 
 Zadaniem zaliczeniowym jest stworzenie biblioteki do przetwarzania pewnego typu danych.
 Do biblioteki powinien być załączony skrypt (może być w formie Jupyter notebooka)

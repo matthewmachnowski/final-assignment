@@ -15,7 +15,7 @@ def load_gm(data):
     except FileNotFoundError:
         print("There is no such file.")
     else:
-        # 0201011 (KOD) -> 020101 (kod)
+        # 0201011 (KOD) -> 020101 (kod)-
         # 0201022 (KOD) -> 020102 (kod)
         df['kod'] = df['KOD'].str.slice(stop=6)
         df['value'] = df['KOD'].str.slice(start=6)

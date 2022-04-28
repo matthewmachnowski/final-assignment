@@ -3,7 +3,7 @@ import numpy as np
 
 
 def income_jst(input_file):
-    df = load.load(input_file)
+    df = load(input_file)
     # Participation of territorial self-government units in PIT (percentages).
     participation_dict = {"75634": 5,
                           "75623": 1.6,

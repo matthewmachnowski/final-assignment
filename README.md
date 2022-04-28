@@ -14,7 +14,7 @@ samorządu terytorialnego Polski
 - `setup.cfg`- plik ini, zawierający domyślne opcje dla poleceń setup.py
 
 - `data` - dane od dochodów budżetowych pobieranych przez urzędy skarbowe na
-rzecz jednostek samorządu terytorialnego za rok 2019 i 2020 (dane, na których pokazuję działenie biblioteki). 
+rzecz jednostek samorządu terytorialnego za rok 2019 i 2020 (dane, na których pokazuję działenie biblioteki) 
 
 - `results` - folder z zapisanymi wynikami w arkuszach Excel
 

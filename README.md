@@ -2,6 +2,8 @@ Przygotowałem bibliotekę umożliwiającą przetwarzanie danych dotyczących do
 
 Do biblioteki dołączyłem również skrypt demonstrujący jej użycie na konkretnych zbiorach danych. Skrypt ten przedstawia kroki przetwarzania danych przy użyciu biblioteki oraz interpretuje wyniki w sposób prosty i zrozumiały dla użytkownika.
 
+Dodatkowo, opracowałem przyjazny dla użytkownika raport w Power BI, który umożliwia wizualizację i interaktywne przeglądanie przetworzonych danych. Raport ten zawiera szereg różnorodnych wykresów i tabel, dzięki którym użytkownik może w łatwy sposób zrozumieć i przeanalizować dane. Znajduje się on w folderze `report`
+
 Opis plików/folderów:
 
 - `calculate_income` - biblioteka przetwarzająca dane o dochodach PIT w jednostkach 
@@ -19,4 +21,6 @@ rzecz jednostek samorządu terytorialnego za rok 2019 i 2020 (dane, na których 
 - `config.ini` -  informacje o ścieżkach do danych
 
 - `script.ipynb` - skrypt pokazujący działanie biblioteki
+
+- `report` - plik pdf pokzaujący wizualizację w PowerBI
 

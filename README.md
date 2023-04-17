@@ -1,6 +1,6 @@
-Zadaniem zaliczeniowym jest stworzenie biblioteki do przetwarzania pewnego typu danych.
-Do biblioteki powinien być załączony skrypt (może być w formie Jupyter notebooka)
-pokazujący użycie biblioteki na konkretnych danych.
+Przygotowałem bibliotekę umożliwiającą przetwarzanie danych dotyczących dochodów z PIT w polskich jednostkach samorządu terytorialnego. Biblioteka ta zawiera szereg funkcji, które umożliwiają łatwe i efektywne przetwarzanie danych, m.in. filtrowanie, sortowanie, grupowanie i obliczanie statystyk.
+
+Do biblioteki dołączyłem również skrypt demonstrujący jej użycie na konkretnych zbiorach danych. Skrypt ten przedstawia kroki przetwarzania danych przy użyciu biblioteki oraz interpretuje wyniki w sposób prosty i zrozumiały dla użytkownika.
 
 Opis plików/folderów:
 
